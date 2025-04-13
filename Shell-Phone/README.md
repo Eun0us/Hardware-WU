@@ -1,7 +1,7 @@
 # Write-Up Shell-Phone
 
-**CTF**: PWNME
-
+**CTF:** PWNME
+**Author:** Eun0us
 
 ## Description 
 
