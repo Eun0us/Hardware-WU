@@ -5,30 +5,31 @@
 
 ## Description 
 
-`
+```
 In this "Shell-Phone" challenge, you must interact with an ESP32 flashed with a special firmware.
 The objective is to find a contact called "MASTER", retrieve a hidden message from the history,
 as well as the encryption keys of the device. You will then need to send the encrypted message
 to MASTER.
 Rules:
+
     - No smartphones allowed to send the message.
     - Solve the challenge using only the provided hardware.
 
 Once the message is correctly sent, you will receive the flag. Good luck!
-`
+```
 
 - **Difficulty:** medium
 - **Author:** Eun0us
 - **Materials supplied:** ESP32 (Shell-Phone), Sim800L, SIM-Card
 
 ## Context 
-Learn How to get in esp console, .
+In this chall u will learn how to get in *esp console*, *dump* and *reverse firmware*, use *sim800l with an esp32* .
 
 ## Introduce 
 
 Get a micro-usb get a serial tty to the shell-phone 
 
-I use esptool.py & idf.py for all the *solve*
+I use **esptool.py & idf.py** for this step
 
 ### PIN
 
@@ -42,8 +43,8 @@ go inside a esp-idf project
 ![monitoring](img/monitor1.png)
 
 </br>
-The Phone is lock by a PIN so ...
-*dump the firmware !* 
+
+The Phone is lock by a PIN so ...*dump the firmware !* 
 
 `esptool.py --port /dev/ttyUSB0 read_flash 0x00000 0x400000 firmware.bin`
 
