@@ -6,9 +6,10 @@
 
 ---
 
+![image](./assets/lain_header.png)
+
 ## Description
 
-![image](./assets/lain_header.png)
 
 ```md
   **UART HARDWARE — LAIN vs The WIRE**
