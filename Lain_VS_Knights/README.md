@@ -261,7 +261,7 @@ fragments = {
 }
 ```
 
-**Little meme about SRAM Knight !**
+**Little meme about SRAM Knight !**</br>
 ![meme_knights](./assets/knights.png)
 
 ---
